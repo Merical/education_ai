@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd ~
-wget https://github.com/Merical/education_ai/blob/master/requirement/ubuntu16_04_sources.list
 echo update sources.list
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
 sudo cp ./ubuntu16_04_sources.list /etc/apt/sources.list
