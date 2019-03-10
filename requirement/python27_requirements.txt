@@ -1,0 +1,5 @@
+opencv-contrib-python
+matplotlib==2.0.2
+pillow
+https://download.pytorch.org/whl/cpu/torch-1.0.1.post2-cp27-cp27mu-linux_x86_64.whl
+torchvision
