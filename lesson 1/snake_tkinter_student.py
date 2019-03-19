@@ -137,7 +137,7 @@ class Snake:
         self.blocks = [Block(can, a, a), Block(can, a, a + STEP)]
 
     '''
-    请在move函数中键入代码,使用if, elif, else实现贪吃蛇的移动、吃到果实、撞到身体失败、撞到边界失败的功能;
+    请在move函数中键入代码,使用if, elif, else实现贪吃蛇吃到果实、撞到身体失败、撞到边界失败的功能;
     变量a, b分别为贪吃蛇下一步蛇头位置的x, y坐标;
     fruit_x, fruit_y分别为果实的x, y坐标, 如果贪吃蛇的蛇头坐标与果实坐标重合, 则判定贪吃蛇吃到了果实, 贪吃蛇在蛇头位置增加长度;
     WD, HT为地图的宽度和长度, 例如贪吃蛇的蛇头x坐标大于WD或小于0, 则判定贪吃蛇撞到了边界, 对蛇头y坐标亦然;
@@ -165,7 +165,7 @@ class Snake:
             self.can.score.increment()
             self.can.fruit.delete()
             self.can.fruit = Obstacle(self.can)
-            '''Your code here''' # 请为贪吃蛇在a, b处添加新的身体作为蛇头
+            '''Your code here''' # 请为贪吃蛇在a, b处添加新的身体作为蛇头（append）
         elif '''Your code here''':  # 请写入贪吃蛇撞到身体的判定条件表达式
             self.can.clean()
         else: # 贪吃蛇的正常移动
