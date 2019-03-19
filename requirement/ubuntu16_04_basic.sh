@@ -13,4 +13,4 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
 conda config --set show_channel_urls yes
 conda create -n ML python=3.5
-conda install jupyter notebook matplotlib -y
+conda install jupyter notebook matplotlib pyqt -y
