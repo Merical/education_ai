@@ -1,5 +1,8 @@
 from tkinter import*
 from random import randint
+# new lines here
+import socket
+# new lines end
 
 GRADUATION = 40
 PIXEL = 10
@@ -90,7 +93,7 @@ class Scores:
 
         # new lines here
     def declare_score(self):
-        addr = ('127.0.0.1', 8080) # the ip_addr of the server
+        addr = ('127.0.0.1', 8080) # 服务器端的ip地址和端口号
         dict = self.dict
         # new lines end
 
