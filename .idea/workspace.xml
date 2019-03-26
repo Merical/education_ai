@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="af2c4e8b-22fb-4dab-b606-e3ac1e5e734e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/lesson 1/snake" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 1/snake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 1/snake_tkinter.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 1/snake_tkinter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 1/snake_tkinter_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 1/snake_tkinter_student.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reinforcement_learning/Auto_drive_simulation" beforeDir="false" afterPath="$PROJECT_DIR$/reinforcement_learning/Auto_drive_simulation" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reinforcement_learning/HighSpeedRacing" beforeDir="false" afterPath="$PROJECT_DIR$/reinforcement_learning/HighSpeedRacing" afterDir="false" />
     </list>
@@ -395,7 +393,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.50209206" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50209206" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3291536" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.5449791" />

@@ -1,6 +1,8 @@
 from tkinter import*
 from random import randint
+# new lines here
 import socket
+# new lines end
 
 GRADUATION = 40
 PIXEL = 10
@@ -75,35 +77,47 @@ class Scores:
     def __init__(self, boss=None):
         self.counter = StringVar(boss, '0')
         self.maximum = StringVar(boss, '0')
-        self.dict = {'score':0, 'counter':0}
+
+        # new lines here
+        self.dict = {'score': 0, 'maximum': 0}
+        # new lines end
 
     def increment(self):
         score = int(self.counter.get()) + 1
         maximum = max(score, int(self.maximum.get()))
         self.counter.set(str(score))
         self.maximum.set(str(maximum))
-        self.dict['score'] = score
-        self.dict['maximum'] = maximum
+        # new lines here
         self.declare_score()
+        # new lines end
 
     def reset(self):
         self.counter.set('0')
-        self.dict['counter'] = self.counter
 
+        # new lines here
     def declare_score(self):
-        addr = ('192.168.1.100', 8080)
+        addr = ('127.0.0.1', 8080) # 服务器端的ip地址和端口号
         dict = self.dict
+        # new lines end
+        
+        '''
+        小练习：
+            addr是Server的IP地址和端口号，请根据需要进行改写
+            dict是一个字典，有两个key，分别是‘score’和‘maximum’，代表了现在的得分和最高分
+            
+            要求：
+                1）创建一个字符串message，使用format函数对字符串进行操作，将贪食蛇的得分和最高分包含入message中
+                2）使用socket将message发送至Server，注意对message进行编码（encode('utf-8')）
+                3）使用try-except对socket的远程通讯进行把控，如果执行失败打印'Error, the message is not sent！'
+                4）请在 Your code here 处编写你的代码段
+        
+        '''
 
-        message = "The score is {0}, the highest score is {1}".format(dict['score'], dict['maximum'])
-        try:
-            client_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            client_sock.connect(addr)
-            client_sock.send(message.encode('utf-8'))
-            # print('LCH: json message sent to ', addr)
-            client_sock.close()
-            print('Success, the message is ', message)
-        except socket.error as reason:
-            print('Error, the reason is ', reason)
+        ''' Your code here'''
+        
+        
+        
+        ''' Your code here'''
 
 
 class Shape:
@@ -157,6 +171,22 @@ class Snake:
         a = PIXEL + 2 * int(GRADUATION/4) * PIXEL
         self.blocks = [Block(can, a, a), Block(can, a, a + STEP)]
 
+    '''
+    请在move函数中键入代码,使用if, elif, else实现贪吃蛇吃到果实、撞到身体失败、撞到边界失败的功能;
+    变量a, b分别为贪吃蛇下一步蛇头位置的x, y坐标;
+    fruit_x, fruit_y分别为果实的x, y坐标, 如果贪吃蛇的蛇头坐标与果实坐标重合, 则判定贪吃蛇吃到了果实, 贪吃蛇在蛇头位置增加长度;
+    WD, HT为地图的宽度和长度, 例如贪吃蛇的蛇头x坐标大于WD或小于0, 则判定贪吃蛇撞到了边界, 对蛇头y坐标亦然;
+    贪吃蛇的身体储存在self.blocks中, [[block.x, block.y] for block in self.blocks]是贪吃蛇身体的坐标信息列表, 如果蛇头坐标与身体坐标信息列表的任意一个重合, 则判定贪吃蛇撞到了身体, 请使用in判定;
+    若贪吃蛇在正常移动, 它的身体长度应保持不变, 请运用列表的操作将贪吃蛇身体列表self.blocks的第一个元素（蛇尾）提取出来并将其改造成为下一步的蛇头, 改变贪吃蛇尾巴位置使用self.blocks[0].modify(a, b);
+    
+    涉及知识点： 函数; 条件表达式; if语句; 列表操作; 
+    
+    注意：
+    贪吃蛇的身体由Block组成, 调用Block(self.can, x坐标, y坐标)可以为贪吃蛇生成新的身体部分;
+    贪吃蛇的身体保存为self.blocks, self.blocks[0]为蛇尾, self.blocks[-1]为蛇头;
+    请将\'''Your code here\'''改为你的代码
+    
+    '''
     def move(self, path_direction):
         a = (self.blocks[-1].x + STEP * path_direction[0])
         b = (self.blocks[-1].y + STEP * path_direction[1])
