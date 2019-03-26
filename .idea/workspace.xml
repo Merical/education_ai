@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af2c4e8b-22fb-4dab-b606-e3ac1e5e734e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/smartcar/rov_gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson 1/snake" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 1/snake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 1/snake_tkinter.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 1/snake_tkinter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 1/snake_tkinter_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 1/snake_tkinter_student.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reinforcement_learning/Auto_drive_simulation" beforeDir="false" afterPath="$PROJECT_DIR$/reinforcement_learning/Auto_drive_simulation" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reinforcement_learning/HighSpeedRacing" beforeDir="false" afterPath="$PROJECT_DIR$/reinforcement_learning/HighSpeedRacing" afterDir="false" />
     </list>
@@ -16,46 +19,30 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/education_ai$HighSpeedRacing.coverage" NAME="HighSpeedRacing Coverage Results" MODIFIED="1552617454999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reinforcement_learning/HighSpeedRacing" />
+    <SUITE FILE_PATH="coverage/education_ai$object_pose_estimation.coverage" NAME="object_pose_estimation Coverage Results" MODIFIED="1553404960001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/computer_vision" />
+    <SUITE FILE_PATH="coverage/education_ai$server_debug.coverage" NAME="server_debug Coverage Results" MODIFIED="1553570582037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson 1" />
     <SUITE FILE_PATH="coverage/education_ai$run.coverage" NAME="run Coverage Results" MODIFIED="1553238802367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson 1/snake" />
     <SUITE FILE_PATH="coverage/education_ai$Snake_by_DCM.coverage" NAME="Snake_by_DCM Coverage Results" MODIFIED="1552921387970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson 1/Snake-Python" />
     <SUITE FILE_PATH="coverage/education_ai$gui.coverage" NAME="gui Coverage Results" MODIFIED="1552920654859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson 1/snake/snake" />
     <SUITE FILE_PATH="coverage/education_ai$my_snake.coverage" NAME="my_snake Coverage Results" MODIFIED="1552966844530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson 1" />
-    <SUITE FILE_PATH="coverage/education_ai$first_window.coverage" NAME="first_window Coverage Results" MODIFIED="1552201468320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt" />
+    <SUITE FILE_PATH="coverage/education_ai$first_window.coverage" NAME="first_window Coverage Results" MODIFIED="1553407815524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt" />
     <SUITE FILE_PATH="coverage/education_ai$snake_tkinter_student.coverage" NAME="snake_tkinter_student Coverage Results" MODIFIED="1552971047220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson 1" />
     <SUITE FILE_PATH="coverage/education_ai$snake_pygame.coverage" NAME="snake_pygame Coverage Results" MODIFIED="1552921934883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson 1" />
     <SUITE FILE_PATH="coverage/education_ai$snake.coverage" NAME="snake Coverage Results" MODIFIED="1552960722683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson 1/snake-ai" />
-    <SUITE FILE_PATH="coverage/education_ai$snake_tkinter.coverage" NAME="snake_tkinter Coverage Results" MODIFIED="1553232389715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson 1" />
+    <SUITE FILE_PATH="coverage/education_ai$snake_tkinter.coverage" NAME="snake_tkinter Coverage Results" MODIFIED="1553570579656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson 1" />
     <SUITE FILE_PATH="coverage/education_ai$q_learning.coverage" NAME="q_learning Coverage Results" MODIFIED="1552617064733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reinforcement_learning/Auto_drive_simulation" />
     <SUITE FILE_PATH="coverage/education_ai$kalman.coverage" NAME="kalman Coverage Results" MODIFIED="1552623910896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/education_ai$morvan.coverage" NAME="morvan Coverage Results" MODIFIED="1553235525648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reinforcement_learning" />
+    <SUITE FILE_PATH="coverage/education_ai$rov_gui.coverage" NAME="rov_gui Coverage Results" MODIFIED="1553410101737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/smartcar" />
     <SUITE FILE_PATH="coverage/education_ai$snake__1_.coverage" NAME="snake (1) Coverage Results" MODIFIED="1552921266715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson 1/modern-snake-game-opencv" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson 1/snake/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-              <folding>
-                <element signature="e#78#93#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hamilton.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson 1/snake/snake/solver/hamilton.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-565" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="snake_tkinter.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="snake_tkinter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson 1/snake_tkinter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3073">
-              <caret line="189" column="36" selection-start-line="189" selection-start-column="36" selection-end-line="189" selection-end-column="36" />
+            <state relative-caret-position="51">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -63,16 +50,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="snake_tkinter_student.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server_debug.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson 1/server_debug.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="object_pose_estimation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/computer_vision/object_pose_estimation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3876">
+              <caret line="231" selection-start-line="231" selection-end-line="231" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="snake_tkinter_student.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson 1/snake_tkinter_student.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="150" column="22" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+            <state relative-caret-position="293">
+              <caret line="92" column="61" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
               <folding>
                 <element signature="e#623#1777#0" />
-                <element signature="e#1798#2168#0" />
                 <element signature="e#2188#3249#0" />
+                <element signature="e#3279#3689#0" />
                 <element signature="e#3716#3786#0" />
+                <element signature="e#3806#5470#0" />
               </folding>
             </state>
           </provider>
@@ -87,11 +99,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="first_window.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyqt/first_window.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rov_gui.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartcar/rov_gui.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="689">
+              <caret line="296" column="27" selection-start-line="296" selection-start-column="27" selection-end-line="296" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson 1/snake/snake/solver/dqn/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-612" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="direc.py" pinned="false" current-in-tab="false">
@@ -124,9 +158,12 @@
         <option value="$PROJECT_DIR$/lesson 1/snake/snake/game.py" />
         <option value="$PROJECT_DIR$/lesson 1/snake/man_control.py" />
         <option value="$PROJECT_DIR$/lesson 1/my_snake.py" />
-        <option value="$PROJECT_DIR$/lesson 1/snake_tkinter.py" />
-        <option value="$PROJECT_DIR$/lesson 1/snake_tkinter_student.py" />
         <option value="$PROJECT_DIR$/reinforcement_learning/morvan.py" />
+        <option value="$PROJECT_DIR$/computer_vision/object_pose_estimation.py" />
+        <option value="$PROJECT_DIR$/smartcar/rov_gui.py" />
+        <option value="$PROJECT_DIR$/lesson 1/snake_tkinter.py" />
+        <option value="$PROJECT_DIR$/lesson 1/server_debug.py" />
+        <option value="$PROJECT_DIR$/lesson 1/snake_tkinter_student.py" />
       </list>
     </option>
   </component>
@@ -150,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,60 +197,23 @@
             <path>
               <item name="education_ai" type="b2602c69:ProjectViewProjectNode" />
               <item name="education_ai" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson 1" type="462c0819:PsiDirectoryNode" />
+              <item name="computer_vision" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="education_ai" type="b2602c69:ProjectViewProjectNode" />
               <item name="education_ai" type="462c0819:PsiDirectoryNode" />
               <item name="lesson 1" type="462c0819:PsiDirectoryNode" />
-              <item name="snake" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="education_ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="education_ai" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson 1" type="462c0819:PsiDirectoryNode" />
-              <item name="snake" type="462c0819:PsiDirectoryNode" />
-              <item name="snake" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="education_ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="education_ai" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson 1" type="462c0819:PsiDirectoryNode" />
-              <item name="snake" type="462c0819:PsiDirectoryNode" />
-              <item name="snake" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="education_ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="education_ai" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson 1" type="462c0819:PsiDirectoryNode" />
-              <item name="snake" type="462c0819:PsiDirectoryNode" />
-              <item name="snake" type="462c0819:PsiDirectoryNode" />
-              <item name="solver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="education_ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="education_ai" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson 1" type="462c0819:PsiDirectoryNode" />
-              <item name="snake" type="462c0819:PsiDirectoryNode" />
-              <item name="snake" type="462c0819:PsiDirectoryNode" />
-              <item name="solver" type="462c0819:PsiDirectoryNode" />
-              <item name="dqn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="education_ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="education_ai" type="462c0819:PsiDirectoryNode" />
-              <item name="reinforcement_learning" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Jupyter/MaGo-container_num_rec" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -236,8 +235,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run">
-    <configuration name="morvan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.snake_tkinter">
+    <configuration name="first_window" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="education_ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,18 +244,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/reinforcement_learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyqt" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reinforcement_learning/morvan.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt/first_window.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="my_snake" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="object_pose_estimation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="education_ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,12 +263,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson 1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/computer_vision" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 1/my_snake.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/computer_vision/object_pose_estimation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,7 +293,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rov_gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="education_ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,13 +301,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson 1/snake" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/smartcar" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 1/snake/run.py" />
-      <option name="PARAMETERS" value="-s dqn -m normal" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smartcar/rov_gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="server_debug" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="education_ai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson 1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 1/server_debug.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -332,40 +350,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="snake_tkinter_student" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="education_ai" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson 1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 1/snake_tkinter_student.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.q_learning" />
-      <item itemvalue="Python.run" />
+      <item itemvalue="Python.object_pose_estimation" />
+      <item itemvalue="Python.first_window" />
+      <item itemvalue="Python.rov_gui" />
       <item itemvalue="Python.snake_tkinter" />
-      <item itemvalue="Python.my_snake" />
-      <item itemvalue="Python.snake_tkinter_student" />
-      <item itemvalue="Python.morvan" />
+      <item itemvalue="Python.server_debug" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run" />
-        <item itemvalue="Python.morvan" />
+        <item itemvalue="Python.server_debug" />
         <item itemvalue="Python.snake_tkinter" />
-        <item itemvalue="Python.snake_tkinter_student" />
-        <item itemvalue="Python.my_snake" />
+        <item itemvalue="Python.rov_gui" />
+        <item itemvalue="Python.first_window" />
+        <item itemvalue="Python.object_pose_estimation" />
       </list>
     </recent_temporary>
   </component>
@@ -380,6 +379,14 @@
       <option name="presentableId" value="Default" />
       <updated>1552197698007</updated>
     </task>
+    <task id="LOCAL-00001" summary="add computer vision dictionary for object tracking">
+      <created>1553404658222</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553404658222</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -389,11 +396,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35564855" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.50209206" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" visible="true" weight="0.3294979" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.11297071" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16767788" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5449791" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31991175" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32984003" />
@@ -415,12 +422,53 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add computer vision dictionary for object tracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="add computer vision dictionary for object tracking" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lesson 1/snake_tkinter_student.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="150" column="22" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+          <folding>
+            <element signature="e#623#1777#0" />
+            <element signature="e#2188#3249#0" />
+            <element signature="e#3279#3689#0" />
+            <element signature="e#3716#3786#0" />
+            <element signature="e#3806#5470#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson 1/snake/snake/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson 1/snake/snake/solver/dqn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson 1/snake/snake/base/direc.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson 1/snake_tkinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3196">
+          <caret line="189" column="36" selection-start-line="189" selection-start-column="36" selection-end-line="189" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson 1/snake/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -435,9 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2618">
           <caret line="155" column="30" selection-start-line="155" selection-start-column="30" selection-end-line="155" selection-end-column="30" />
-          <folding>
-            <element signature="e#78#98#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -464,9 +509,10 @@
           <caret line="147" column="3" selection-start-line="147" selection-start-column="3" selection-end-line="147" selection-end-column="3" />
           <folding>
             <element signature="e#623#1777#0" />
-            <element signature="e#1798#2168#0" />
             <element signature="e#2188#3249#0" />
+            <element signature="e#3279#3689#0" />
             <element signature="e#3716#3786#0" />
+            <element signature="e#3806#5470#0" />
           </folding>
         </state>
       </provider>
@@ -511,9 +557,10 @@
           <caret line="147" column="3" selection-start-line="147" selection-start-column="3" selection-end-line="147" selection-end-column="3" />
           <folding>
             <element signature="e#623#1777#0" />
-            <element signature="e#1798#2168#0" />
             <element signature="e#2188#3249#0" />
+            <element signature="e#3279#3689#0" />
             <element signature="e#3716#3786#0" />
+            <element signature="e#3806#5470#0" />
           </folding>
         </state>
       </provider>
@@ -571,16 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyqt/qpushbutton.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyqt/first_window.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson 1/snake/snake.py" />
     <entry file="file://$PROJECT_DIR$/kalman.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -619,9 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2635">
           <caret line="155" column="30" selection-start-line="155" selection-start-column="30" selection-end-line="155" selection-end-column="30" />
-          <folding>
-            <element signature="e#78#98#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,9 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="617">
           <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,9 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,6 +686,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson 1/snake/snake/solver/dqn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt/qpushbutton.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/computer_vision/object_pose_estimation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson 1/snake/snake/game.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -665,23 +709,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson 1/snake/snake/solver/dqn/__init__.py">
+    <entry file="file://$PROJECT_DIR$/pyqt/first_window.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson 1/snake_tkinter_student.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="150" column="22" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+        <state relative-caret-position="408">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding>
-            <element signature="e#623#1777#0" />
-            <element signature="e#1798#2168#0" />
-            <element signature="e#2188#3249#0" />
-            <element signature="e#3716#3786#0" />
+            <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartcar/rov_gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="296" column="27" selection-start-line="296" selection-start-column="27" selection-end-line="296" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson 1/snake/snake/solver/hamilton.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson 1/snake/run.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -693,17 +742,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson 1/snake/snake/solver/hamilton.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-565" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson 1/snake_tkinter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3073">
-          <caret line="189" column="36" selection-start-line="189" selection-start-column="36" selection-end-line="189" selection-end-column="36" />
+        <state relative-caret-position="51">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson 1/server_debug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson 1/snake_tkinter_student.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="92" column="61" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
+          <folding>
+            <element signature="e#623#1777#0" />
+            <element signature="e#2188#3249#0" />
+            <element signature="e#3279#3689#0" />
+            <element signature="e#3716#3786#0" />
+            <element signature="e#3806#5470#0" />
           </folding>
         </state>
       </provider>

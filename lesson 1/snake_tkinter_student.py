@@ -75,6 +75,10 @@ class Scores:
         self.counter = StringVar(boss, '0')
         self.maximum = StringVar(boss, '0')
 
+        # new lines here
+        self.dict = {'score': 0, 'counter': 0}
+        # new lines end
+
     def increment(self):
         score = int(self.counter.get()) + 1
         maximum = max(score, int(self.maximum.get()))
@@ -84,6 +88,23 @@ class Scores:
     def reset(self):
         self.counter.set('0')
 
+        # new lines here
+    def declare_score(self):
+        addr = ('127.0.0.1', 8080) # the ip_addr of the server
+        dict = self.dict
+        # new lines end
+
+        ''' Your code here'''
+        message = "The score is {0}, the highest score is {1}".format(dict['score'], dict['maximum'])
+        try:
+            client_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            client_sock.connect(addr)
+            client_sock.send(message.encode('utf-8'))
+            # print('LCH: json message sent to ', addr)
+            client_sock.close()
+            print('Success, the message is ', message)
+        except socket.error as reason:
+            print('Error, the reason is ', reason)
 
 class Shape:
     def __init__(self, can, a, b, kind):
