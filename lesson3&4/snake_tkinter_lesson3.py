@@ -1,4 +1,4 @@
-from tkinter import*
+from tkinter import *
 from random import randint
 # new lines here
 import socket
@@ -89,6 +89,8 @@ class Scores:
         self.maximum.set(str(maximum))
         # new lines here
         self.declare_score()
+        self.dict['score'] = score
+        self.dict['maximum'] = maximum
         # new lines end
 
     def reset(self):

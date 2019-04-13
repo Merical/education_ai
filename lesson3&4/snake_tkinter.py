@@ -91,7 +91,7 @@ class Scores:
         self.dict['counter'] = self.counter
 
     def declare_score(self):
-        addr = ('192.168.1.100', 8080)
+        addr = ('127.0.0.1', 8080)
         dict = self.dict
 
         message = "The score is {0}, the highest score is {1}".format(dict['score'], dict['maximum'])
